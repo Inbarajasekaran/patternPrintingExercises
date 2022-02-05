@@ -78,12 +78,13 @@ SomeArr.forEach((element)=>{
 //     }
 //     console.log(d)
 // }
+
 // scopeTest()
 
 //  // forLoops
 
-var loopArray = [1,2,3,4,5]
-var loopObject = {name: 'Inba', age : 21, role: 'Developer'}
+// var loopArray = [1,2,3,4,5]
+// var loopObject = {name: 'Inba', age : 21, role: 'Developer'}
 
 // for (let i = 0; i < loopArray.length; i++){
 //     console.log(loopArray[i])
@@ -97,10 +98,10 @@ var loopObject = {name: 'Inba', age : 21, role: 'Developer'}
 //     console.log(ele + ":" + loopObject[ele])
 // }
 
-loopArray.forEach((element, index, loopArray) => {
-    console.log(element)
-    // console.log(index)
-});
+// loopArray.forEach((element, index, loopArray) => {
+//     console.log(element)
+// console.log(index)
+// });
 
 // Object.keys(loopObject).forEach(ele => {
 //     console.log(ele + ":" + loopObject[ele])
