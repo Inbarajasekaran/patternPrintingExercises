@@ -66,7 +66,6 @@ SomeArr.forEach((element)=>{
 // console.log(typeof (obj))
 // console.log(typeof (fun))
 
-
 // function scopeTest() {
 //     let a = 1; //globally
 //     var b = 2; {
