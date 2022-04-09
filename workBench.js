@@ -106,7 +106,7 @@ SomeArr.forEach((element)=>{
 //     console.log(ele + ":" + loopObject[ele])
 // })
 
-// // FILTER --> ( TO SEARCH AND FILTER THE VALUES BY RELATED STRING )
+// TO SEARCH AND FILTER THE VALUES BY RELATED STRING 
 // let request = [
 //   { userName: 'Inba', age: 23 },
 //   { userName: 'Prem Kumar', age: 32 },
