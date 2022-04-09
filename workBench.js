@@ -106,3 +106,16 @@ SomeArr.forEach((element)=>{
 // Object.keys(loopObject).forEach(ele => {
 //     console.log(ele + ":" + loopObject[ele])
 // })
+
+// let request = [
+//   { userName: 'Inba', age: 23 },
+//   { userName: 'Prem Kumar', age: 32 },
+//   { userName: 'Jothiram', age: 29 }
+// ];
+// let val = 'I';
+// let ans = request.filter((ele) =>
+//   ele['userName'].toLowerCase().includes(val.toLowerCase())
+// );
+// this.filterReqArr = ans;
+// console.log(this.filterReqArr);
+
