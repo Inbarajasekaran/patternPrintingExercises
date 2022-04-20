@@ -36,7 +36,6 @@
 
 //Loop Types
 /*
-
 let SomeArr = [];
 for(let i=0;i<10;i++){
     SomeArr[i];
@@ -51,10 +50,8 @@ for(let o in obj) {
 SomeArr.forEach((element)=>{
     console.log(element);
 });
-
 // var obj = {name: "Inba"}
 // console.log(obj instanceof Number)
-
 */
 
 // var obj = new function () {
@@ -65,7 +62,6 @@ SomeArr.forEach((element)=>{
 // }
 // console.log(typeof (obj))
 // console.log(typeof (fun))
-
 
 // function scopeTest() {
 //     let a = 1; //globally
@@ -106,3 +102,52 @@ SomeArr.forEach((element)=>{
 // Object.keys(loopObject).forEach(ele => {
 //     console.log(ele + ":" + loopObject[ele])
 // })
+
+// TO SEARCH AND FILTER THE VALUES BY RELATED STRING 
+// let request = [
+//   { userName: 'Inba', age: 23 },
+//   { userName: 'Prem Kumar', age: 32 },
+//   { userName: 'Jothiram', age: 29 }
+// ];
+// let val = 'I';
+// let ans = request.filter((ele) =>
+//   ele['userName'].toLowerCase().includes(val.toLowerCase())
+// );
+// this.filterReqArr = ans;
+// console.log(this.filterReqArr);
+
+//Remove the duplicate objects in array
+// let arr = [{ val: 1, name: 'one' },
+// { val: 2, name: 'two' },
+// { val: 1, name: 'one' }]
+// var a = []
+// let ids = arr.map(o => o.val)
+// let filtered = arr.filter(({ val }, index) => !ids.includes(val, index + 1))
+// a = filtered
+// console.log(a)
+
+
+// TRIAL
+
+var musicBox = [1, 2, 3, 4, 5]
+let i = 1
+for (i = i * 2; i < musicBox.length; i++) {
+    console.log(musicBox[i])
+}
+
+
+
+//CODEWARS
+
+// var bool = false;
+// function solution(str, ending) {
+//     for (let i = str.length-1; i >= 0; i--){
+//         if (ending.substring(ending.length - i) == str.substring(str.length - i)){
+//             console.log(ending.substring(ending.length - i));
+//             console.log(str.substring(str.length - i))
+//         }
+//     }
+//     // console.log (ending.substring(ending.length - 1))
+//     // console.log(str.substring(str.length - 1))
+// }
+// solution("INBA", "BA")
