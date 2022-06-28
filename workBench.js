@@ -126,6 +126,14 @@ SomeArr.forEach((element)=>{
 // a = filtered
 // console.log(a)
 
+//Convert array of string into array of objects
+//let myArray = ["AA","BB" , "CC"];
+//myArray = myArray.map((str, index) =>
+//({ value: str, 
+//id: index + 1 })
+//);
+//console.log(myArray)
+
 
 // TRIAL
 
