@@ -134,6 +134,20 @@ SomeArr.forEach((element)=>{
 //);
 //console.log(myArray)
 
+//CHECK THE KEYS IN NESTED OBJECT BY STRING
+// var country = [{ listOfCountries: { id: 1, name: 'India', value: 967784 } }];
+// var nm = "name"; 
+// //var nm = "value" // //while the value of nm is dynamic or not defined means use line number 144
+// country.forEach((el) => {
+//   if (el.hasOwnProperty('listOfCountries')) {
+//     if (el.listOfCountries.hasOwnProperty('name')) {
+// // if (el.listOfCountries.hasOwnProperty(nm)) {
+//       console.warn('YES');
+//     }
+//   }
+// })
+// });
+
 
 // TRIAL
 
