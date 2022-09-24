@@ -142,7 +142,10 @@ SomeArr.forEach((element)=>{
 //   if (el.hasOwnProperty('listOfCountries')) {
 //     if (el.listOfCountries.hasOwnProperty('name')) {
 // // if (el.listOfCountries.hasOwnProperty(nm)) {
-//       console.warn('YES');
+//       console.info('YES');
+//     }
+// else {
+//       console.error("oops")
 //     }
 //   }
 // })
