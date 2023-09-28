@@ -126,6 +126,28 @@ SomeArr.forEach((element)=>{
 // a = filtered
 // console.log(a)
 
+//Avoid to add the data if the same data exists in array
+// let addCart = [];
+// let product = [
+//     {'p_id' : 1, 'name' : 'INBA'}
+// ]
+
+// addData(data) {
+//     let pushIntoCart = true;
+//     if (this.addCart.length == 0) {
+//       this.addCart.push(product)
+//     } else if (this.addCart.length > 0) {
+//       this.addCart.forEach((elem: any) => {
+//         if (product.p_id == elem.p_id) {
+//           pushIntoCart = false;
+//         }
+//       });
+//       if (pushIntoCart == true) {
+//         addCart.push(product)
+//       }
+//     }
+//   }
+
 //Convert array of string into array of objects
 //let myArray = ["AA","BB" , "CC"];
 //myArray = myArray.map((str, index) =>
